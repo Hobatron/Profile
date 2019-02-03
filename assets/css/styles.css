@@ -1,0 +1,86 @@
+#ColorPalette {
+
+    color: #EDEDC9;
+    /*Palse Springbud: bg-ps*/
+    color: #E5DA62;
+    /*Straw: bg.st*/
+    color: #ba5624;
+    /*Ruddy Brown: .bg-rb*/
+    color: #73bfb8;
+    /*Moonstone Blue: .bg-mb*/
+    color: #3e363f;
+    /*Onyx: .bg-on*/
+    color: #173753;
+    /*Space Cadet: .bg-sc*/
+}
+
+body {
+    color: white;
+    font: 2em sans-serif;
+}
+
+.c-body {
+    background-color: #ececd5;
+}
+
+.card {
+    border-radius: 0px;
+    border: none;
+}
+
+.c-head {
+    width: 100%;
+    position: relative;
+    padding: 5.5%;
+    color: white;
+    text-align: center;
+}
+
+.acc:hover {
+    opacity: .7;
+}
+
+.solid {
+    min-height: 135px;
+    min-width: 120px;
+    padding: 0px;
+    background: #EDEDC9;
+}
+
+
+.test {
+    border: 1px solid black;
+}
+
+.h-30 {
+    height: 30% !important;
+}
+
+.h-45 {
+    height: 45% !important;
+}
+
+.bg-sc {
+    background-color: #173753;
+}
+
+.bg-on {
+    background-color: #3e363f;
+}
+
+.bg-mb {
+    background-color: #73bfb8;
+    ;
+}
+
+.bg-rb {
+    background-color: #ba5624;
+}
+
+.bg-st {
+    background-color: #E5DA62;
+}
+
+.bg-ps {
+    background-color: #EDEDC9;
+}
