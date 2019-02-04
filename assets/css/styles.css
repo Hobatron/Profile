@@ -47,9 +47,9 @@ body {
     background: #EDEDC9;
 }
 
-
-.test {
-    border: 1px solid black;
+.protImgs {
+    max-width: 250px;
+    margin-bottom: 15px;
 }
 
 .h-30 {
@@ -64,23 +64,46 @@ body {
     background-color: #173753;
 }
 
+.clr-sc {
+    color: #173753;
+}
+
 .bg-on {
     background-color: #3e363f;
 }
 
+.clr-on {
+    color: #3e363f;
+}
+
 .bg-mb {
     background-color: #73bfb8;
-    ;
+}
+
+.clr-mb {
+    color: #73bfb8;
 }
 
 .bg-rb {
     background-color: #ba5624;
 }
 
+.clr-rb {
+    color: #ba5624;
+}
+
 .bg-st {
     background-color: #E5DA62;
 }
 
+.clr-st {
+    color: #E5DA62;
+}
+
 .bg-ps {
     background-color: #EDEDC9;
+}
+
+.clr-ps {
+    color: #EDEDC9;
 }
