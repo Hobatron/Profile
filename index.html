@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- MQuire on dropdown buttons, img, and leave review/reccomend -->
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,18 +16,19 @@
 <body class="bg-ps mt-3">
     <div class="container">
         <div class="row">
-            <div class="col-md-3 p sticky-top" style="z-index: -1;">
+            <!-- Learn how to make this sticky -->
+            <div class="col-md-3 p" style="">
                 <div class="row">
                     <div class="col-sm-6 col-md-12" style="padding: 0px">
                         <img class="w-100" src="assets\img\headShot.png" alt="headshot"></div>
 
                     <div class="col-sm-6 col-md-12 bg-sc">
                         <div class="mt-2 text-center">
-                            <div class="" style="padding: 15% 8% 18% 8%">
+                            <div class="" style="z-index:5;padding: 15% 8% 18% 8%">
                                 Find Me:
                                 <br>
-                                <i class="fab fa-linkedin"></i>
-                                <i class="fab fa-github-square"></i>
+                                <a href="https://www.linkedin.com/in/mason-ashlock-a0645849/"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://github.com/Hobatron"><i class="fab fa-github-square"></i></a>
                             </div>
                         </div>
                         <div class="progress" style="height:4px;">
@@ -89,7 +88,7 @@
 
                 </div>
 
-                <div class="accordion" id="accordionExample" style="z-index: 1022220; color: rgb(31, 31, 31)">
+                <div class="accordion clr-on" id="accordionExample" style="z-index: 3">
                     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                         <div class="c-body">
                             <div class="c-head align-middle bg-on mb-2">Welcome!</div>
@@ -146,7 +145,7 @@
 
                         </div>
                     </div>
-                    <div id="collapseThree" class="collapse show" aria-labelledby="headingFour" data-parent="#accordionExample">
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                         <div class="c-body">
                             <div class="c-head align-middle bg-st mb-2">Portfolio</div>
                             <div class="container m-2">
@@ -189,21 +188,40 @@
 
                         </div>
                     </div>
-                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                        <div class="c-body">
+                    <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordionExample">
+                        <div class="c-body" style="font-size: 1.5rem;">
                             <div class="c-head align-middle bg-mb mb-2">Contact Me</div>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa accusamus quae reiciendis!
-                            Eaque saepe repellat, tempore soluta adipisci fuga. Doloribus doloremque voluptates et?
-                            Vel, praesentium. Quibusdam impedit dolores dolorum ipsam!Corporis, blanditiis! Vitae, quis
-                            obcaecati unde deleniti eos qui rerum tenetur rem facere fugit, in veritatis eius
-                            exercitationem ad earum culpa nobis! Velit quidem vero ipsam optio commodi ex quasi.
+                            <form class="mx-4">
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Email address:</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="contactSelection">Please select a reason:</label>
+                                    <select class="form-control" id="contactSelection">
+                                        <option>Other</option>
+                                        <option>Employment Opportunity</option>
+                                        <option>Add Recommendation</option>
+                                        <option>Suggestion - (This site)</option>
+                                        <option>Suggestion - (Portfolio)</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">And a brief comment:</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                                <div class="btn btn-dark p-4 bg-mb">Submit</div>
+                                <div class="btn btn-dark p-4 bg-mb">Clear</div>
+                                <br>
+                                <br>
+                            </form>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
+    <!--End - Main Container-->
 
 
 

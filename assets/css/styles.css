@@ -20,7 +20,7 @@ body {
 }
 
 .c-body {
-    background-color: #ececd5;
+    background-color: #e4e4de;
 }
 
 .card {
@@ -50,6 +50,12 @@ body {
 .protImgs {
     max-width: 250px;
     margin-bottom: 15px;
+}
+
+.btn-dark {
+    border: none;
+    border-radius: 0;
+    font-weight: bold;
 }
 
 .h-30 {
