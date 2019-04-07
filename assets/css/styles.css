@@ -12,8 +12,11 @@
 }
 
 body {
-    color: white;
     font: 2em sans-serif;
+}
+
+li {
+    list-style: none;
 }
 
 .c-body {
@@ -23,6 +26,19 @@ body {
 .card {
     border-radius: 0px;
     border: none;
+}
+
+.card-body {
+    padding-bottom: 0px
+}
+
+.popover-header {
+    color: #3e363f,
+}
+
+.moreInfo {
+    cursor: help;
+    text-decoration: none;
 }
 
 .c-head {
@@ -39,14 +55,9 @@ body {
 
 .solid {
     min-height: 135px;
-    min-width: 120px;
     padding: 0px;
     background: #EDEDC9;
-}
-
-.protImgs {
-    max-width: 250px;
-    margin-bottom: 15px;
+    color: white;
 }
 
 .btn-dark {
@@ -93,6 +104,10 @@ body {
 
 .clr-rb {
     color: #ba5624;
+}
+
+.bg-pink {
+    background-color: #DBAFC1;
 }
 
 .bg-st {
