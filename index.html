@@ -99,8 +99,8 @@
                     </div>
                 </div>
 
-                <div class="accordion clr-on" id="accordionExample" style="z-index: 3">
-                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="accordion clr-on" id="accordion" style="z-index: 3">
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                         <div class="c-body"
                             style="border-color: #3e363f; border-width: 0 2px 18px 2px; border-style: solid;">
                             <div class="c-head align-middle bg-on mb-2">Welcome!</div>
@@ -125,7 +125,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                         <div class="c-body"
                             style="border-color: #ba5624; border-width: 0 2px 18px 2px; border-style: solid;">
                             <div class="c-head align-middle bg-rb mb-2">Goals and Accomplishments</div>
@@ -159,8 +159,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="collapseThree" class="collapse show" aria-labelledby="headingFour"
-                        data-parent="#accordionExample">
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                         <div class="c-body">
                             <div class="c-head align-middle bg-st">Portfolio</div>
                             <div class="container"
@@ -175,7 +174,8 @@
                                             </a>
                                             <p class="card-text">
                                                 <a tabindex="0" data-toggle="popover" data-trigger="hover"
-                                                    class="moreInfo" title="Sassy Addie!" data-content='This web app is for those of us who find it tough to find the insperation to
+                                                    data-placement="bottom" class="moreInfo" title="Sassy Addie!"
+                                                    data-content='This web app is for those of us who find it tough to find the insperation to
                                                             work out! With some awesome selection of music playlists via the YouTube
                                                             API, and some helpful "encouragment" from Addie, find yourself hitting
                                                             the gym harder than ever!'><span class="text-muted">More
@@ -200,7 +200,7 @@
                                             </a>
                                             <p class="card-text">
                                                 <a tabindex="0" data-toggle="popover" data-trigger="hover"
-                                                    class="moreInfo" title="MTG Collection"
+                                                    data-placement="bottom" class="moreInfo" title="MTG Collection"
                                                     data-content='This web app brings convenient ways to maintain a collection of magic cards. It includes a search function which utilizes 
                                                     the scryfall API. It has user login through a MySQL database and a way to add wishlist items then transfer them easily to your collection!'><span
                                                         class="text-muted">More
@@ -228,7 +228,7 @@
                                             </a>
                                             <p class="card-text">
                                                 <a tabindex="0" data-toggle="popover" data-trigger="hover"
-                                                    class="moreInfo" title="Find a Frined"
+                                                    data-placement="bottom" class="moreInfo" title="Find a Frined"
                                                     data-content='Find a new friend! Take a quick 20 question survey and be united with your next best friend!'><span
                                                         class="text-muted">More
                                                         Information</span></a>
@@ -252,7 +252,7 @@
                                             </a>
                                             <p class="card-text">
                                                 <a tabindex="0" data-toggle="popover" data-trigger="hover"
-                                                    class="moreInfo" title="Connect 4"
+                                                    data-placement="bottom" class="moreInfo" title="Connect 4"
                                                     data-content="Play a riveting game of connect 4 with your buddies from around the world! Implements a chat feature so you can smack talk your opponent!"><span
                                                         class="text-muted">More
                                                         Information</span></a>
@@ -308,8 +308,7 @@
 
                         </div>
                     </div>
-                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
-                        data-parent="#accordionExample">
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                         <div class="c-body"
                             style="border-color: #DBAFC1; border-width: 0 2px 18px 2px; border-style: solid;">
                             <div class="c-head align-middle bg-pink mb-2">Skills</div>
@@ -336,8 +335,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
-                        data-parent="#accordionExample">
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
                         <div class="c-body"
                             style="border-color: #73bfb8; border-width: 0 2px 18px 2px; border-style: solid;">
                             <div class="c-head align-middle bg-mb mb-2">Contact Me</div>
@@ -358,8 +356,8 @@
                                     </select>
                                 </div>
                                 <div class="form-group">
-                                    <label for="exampleFormControlTextarea1">And a brief comment:</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                    <label for="comment">And a brief comment:</label>
+                                    <textarea class="form-control" id="comment" rows="3"></textarea>
                                 </div>
                                 <div class="btn btn-dark p-4 bg-mb">Submit</div>
                                 <div class="btn btn-dark p-4 bg-mb">Clear</div>
